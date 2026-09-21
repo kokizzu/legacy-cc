@@ -1,7 +1,25 @@
 # 🚀 Solana MEV Sniper Copy Trading Bot (Node.js & Rust) — PumpFun, Bonk, Raydium
 
 > **Ultra-fast, customizable Solana copy trading, sniper, and MEV bot with advanced sell logic for maximum profit.**
+## 🏔️ Solana Alpenglow Is Coming: What It Means for Trading Bots
 
+Solana is going through the biggest consensus upgrade in its history: **Alpenglow**.
+
+- **Full finality drops from ~12.8s to ~100 to 150ms**, so transactions are permanently locked in almost instantly (blocks were already fast, now finality is too)
+- **Block times are dropping too**, from 400ms to 300ms today, with a 200ms target (separate upgrade running alongside Alpenglow)
+- **Proof of History and TowerBFT are replaced** by **Votor** (voting) and **Rotor** (block propagation)
+- **Vote transactions leave block space**, which frees up room for real user transactions
+- Approved by **98%+ of validators** (SIMD-0236) and rolling out to mainnet in stages during 2026
+
+**Why this matters for sniper, copy trading, and MEV bots:**
+Faster blocks and near-instant finality change the game. Confirmation timing, landing strategies, priority fees, and how you read the chain in real time will all need to adapt. Bots built for the old timing will fall behind.
+
+### 🔔 Alpenglow Update Coming Soon
+I'm updating this repo for Alpenglow, with faster confirmation handling, improved landing logic, and better real-time monitoring. **Star ⭐ and watch 👀 this repo** so you don't miss it.
+
+Want an Alpenglow-ready bot built for you now? Message me on Telegram: [@mortdeus](https://t.me/mortdeus)
+
+---
 ---
 
 ### **If you find this project helpful, please star 🌟 the repo!**  
